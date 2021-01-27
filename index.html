@@ -8,15 +8,39 @@
 	<meta name="description" content="Hascal Programming Language Official Website">
 	<meta name="keywords" content="Hascal">
 	<link rel="stylesheet" href="style.css">
+	
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 </head>
 <body>
-	<nav>
-		<h1><a href="">Hascal</a></h1>
-		<a href="/" class="current">Home</a>
-		<a href="/downloads.html">Downloads</a>
-		<a href="/docs.html">Documentation</a>
-		<a href="/hlm.html">HLM</a>
-	</nav>
+	<nav class="navbar navbar-inverse">
+  		<div class="container-fluid">
+    			<div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Hascal</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="">Home</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="/downloads.html">Downloads<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="/downloads.html#win">Windows</a></li>
+            <li><a href="/downloads.html#lin">Linux</a></li>
+            <li><a href="/downloads.html#mac">MacOS</a></li>
+          </ul>
+        </li>
+        <li><a href="/docs.html">Documents</a></li>
+        <li><a href="/hlm.html">hlm</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
 	<header>
 		<h2>The <strong>Hascal Programming Language</strong> Official Website</h2>
 	</header>
