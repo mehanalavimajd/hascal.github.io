@@ -49,16 +49,56 @@
 <pre><code>print("Hello World");</code></pre>
   </div>
 </div>	
+	  
 <div class="panel panel-default" style="padding : 30px">
   <div class="panel-heading"><h4>Print values<h4></div>
   <div class="panel-body">
-	for example : :
+	for example :
 <pre><code>print("Hello World");
 print(1+1);
 print(1.2);
 print(true);
 print('$');</code></pre>
   </div>
+</div>	
+	  
+<div class="panel panel-default" style="padding : 30px">
+  <div class="panel-heading"><h4>Variables<h4></div>
+  <div class="panel-body">
+	Variables are like containers in which values can be inserted or changed.
+variable defining :
+<pre><code>var name : type ;</code></pre>
+name : your variable name 
+type : your variable type
+	  
+<b>Default Types</b> :
+<ul>
+<li>int : an integer number</li>
+<li>string : a string literal</li>
+<li>bool : a boolean value(true or false)</li>
+<li>float : a decimal number</li>
+</ul>  
+example :
+<pre><code>var myvar : string ;
+var my_var : int ;
+var _myvar : float;
+</code></pre>
+<b>NOTE</b>: names should not start with a number. By compiling this code, you will receive an error :
+<pre><code>var 6Apple : int;</code></pre>
+
+<h5>Variable assignment</h5>
+Do the following to give a value to the variable :
+<pre><code>name = value ;</code></pre>	  
+example :	  
+<pre><code>var x : int;
+x = 14 ;</code></pre>	
+You can not assign a value to a variable as opposed to the original type ,this code have error :
+<pre><code>var myInt : int;
+myint = 1.1; # error</code></pre>
+
+Your variable before assignment should declared,for example this code have error :
+<pre><code>myint = 1.1; # error</code></pre>
+</div>
 </div>	
 </body>
 </html>
