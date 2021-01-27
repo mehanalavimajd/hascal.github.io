@@ -12,6 +12,16 @@ body {
 	font-size: max(1.3vh, 1vw);
 }
 
+header {
+	min-height: 20vw;
+	padding: 5vw;
+	background-color: #dddddd;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
 header h2 {
 	font-weight: normal;
 }
